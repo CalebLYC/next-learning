@@ -99,6 +99,25 @@ a {
   color: inherit;
   text-decoration: none;
 }
+h1, h2{
+  color: rgba(0, 0, 0, .7);
+  margin: 15px;
+}
+li{
+  list-style: none;
+  margin: 10px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fetchError{
+  font-size: 18pt;
+  margin: 15px;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
